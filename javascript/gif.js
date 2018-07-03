@@ -1,4 +1,4 @@
-var giftastic = $.get("http://api.giphy.com/v1/gifs/search?q=ryan+gosling&api_key=YOUR_API_KEY&limit=5");
+var giftastic = $.get("https://api.giphy.com/v1/gifs/search?q=ryan+gosling&api_key=YOUR_API_KEY&limit=5");
 giftastic.done(function (data) {
 });
 
@@ -41,7 +41,7 @@ $(document).ready(function () {
     // Function that displays all of the gifs
     function displayGifs() {
         var action = $(this).attr("data-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + action + "&api_key=lnMqViWeHXUSdxkRmCnkYnYoF34nT7c4&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + action + "&api_key=lnMqViWeHXUSdxkRmCnkYnYoF34nT7c4&limit=10";
         $.ajax({
                 url: queryURL,
                 method: 'GET'
