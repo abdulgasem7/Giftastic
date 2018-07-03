@@ -1,4 +1,4 @@
-var giftastic = $.get("https://api.giphy.com/v1/gifs/search?q=ryan+gosling&api_key=YOUR_API_KEY&limit=5");
+var giftastic = $.get("https://api.giphy.com/v1/gifs/search?q=ryan+gosling&api_key=lnMqViWeHXUSdxkRmCnkYnYoF34nT7c4&limit=5");
 giftastic.done(function (data) {
 });
 
